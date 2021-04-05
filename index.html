@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/index.scss" />
+    <title>Guitar Notes</title>
+  </head>
+  <body>
+    <main id="app">
+      <input type="number" class="maxFret" placeholder="Количество Ладов" />
+      <button class="btn generateNote">Сгенерировать</button>
+      <h1 class="noteDisplay"></h1>
+
+      <div class="noteResultContainer">
+        <button class="btn showNote">Показать ноту</button>
+        <h2 class="noteResult"></h2>
+      </div>
+    </main>
+
+    <script src="scripts/index.ts"></script>
+  </body>
+</html>

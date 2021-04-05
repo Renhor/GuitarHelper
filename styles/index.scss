@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+.maxFret {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #acacac;
+  border-radius: 2px;
+  margin-bottom: 25px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn {
+  border-radius: 2px;
+  border: none;
+  background-color: #4eb5ff;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 22px;
+  margin-bottom: 25px;
+  padding: 10px 25px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.noteResult,
+.noteResultContainer {
+  display: none;
+}
+
+.noteDisplay {
+  width: 600px;
+  height: 300px;
+}
